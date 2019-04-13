@@ -1,0 +1,14 @@
+{
+  "name": "angular-intro",
+  "version": "1.0.0",
+  "private": true,
+  "author": "IMS",
+  "license": "MIT",
+  "description": "An introduction to IMS specific libraries and patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
