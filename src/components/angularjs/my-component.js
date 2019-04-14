@@ -1,15 +1,32 @@
 import { css } from 'emotion';
 import { components } from '../module';
+import template from './my-component.template.html';
 
+/**
+ * @typedef ImsComponent
+ * @type {import('angular').IComponentOptions & ImsComponentName}
+ */
+
+/**
+ * @typedef ImsComponentName
+ * @type {{ displayName: string }}
+ */
+
+/** @type {string} */
 const className = css`
   color: red;
 `;
 
+/** @type {ImsComponent} */
 export const myComponent = {
   displayName: 'myComponent',
-  template: `
-    <div class="${className}">My Angularjs component</div>
-  `
+  template,
+  controller: [
+    '$scope',
+    (/** @type {import('angular').IScope} */ $scope) => {
+      $scope.className = className;
+    }
+  ]
 };
 
 components.component(myComponent.displayName, myComponent);
