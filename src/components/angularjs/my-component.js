@@ -1,9 +1,14 @@
+import { css } from 'emotion';
 import { components } from '../module';
+
+const className = css`
+  color: red;
+`;
 
 export const myComponent = {
   displayName: 'myComponent',
   template: `
-    <div>My Angularjs component</div>
+    <div class="${className}">My Angularjs component</div>
   `
 };
 

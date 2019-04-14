@@ -1,9 +1,14 @@
 import React from 'react';
+import { css } from 'emotion';
 
 export class MyComponent extends React.Component {
   render() {
     return (
-      <div>My React Component</div>
+      <div className={css`
+        color: blue;
+      `}>
+        My React Component
+      </div>
     );
   }
 }
