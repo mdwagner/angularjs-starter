@@ -1,14 +1,8 @@
-import angular from 'angular';
-import 'angular-mocks';
-
-import { ims } from '../module';
 import { MyService } from './my-service';
 
 describe('MyService', () => {
-  /** @type {MyService} */
-  let service;
+  let service: MyService;
 
-  beforeEach(angular.mock.module(ims.name));
   beforeEach(inject(($injector) => {
     service = $injector.get(MyService.displayName);
   }));

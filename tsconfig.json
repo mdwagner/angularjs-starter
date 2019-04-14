@@ -1,17 +1,22 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "paths": { "*": ["types/*"] },
     "target": "es5",
     "module": "esnext",
     "lib": [
       "dom",
       "esnext"
     ],
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"]
+    },
     "strict": true,
     "esModuleInterop": true,
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "jsx": "preserve"
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }
