@@ -9,7 +9,7 @@ import template from './my-component.template.html';
 
 /**
  * @typedef ImsComponentName
- * @type {{ displayName: string }}
+ * @property {string} displayName
  */
 
 /** @type {string} */
