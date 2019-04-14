@@ -10,8 +10,13 @@
     "start": "parcel public/index.html --open",
     "build": "parcel build public/index.html"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.22",
+    "angular": "^1.5.11"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "@types/angular": "^1.6.54",
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.4.3"
   }
 }

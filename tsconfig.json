@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "lib": [
+      "dom",
+      "esnext"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true
+  }
+}
