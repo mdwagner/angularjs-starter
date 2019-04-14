@@ -9,6 +9,7 @@
     "strict": true,
     "esModuleInterop": true,
     "allowJs": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "jsx": "preserve"
   }
 }

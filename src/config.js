@@ -1,4 +1,3 @@
-import angular from 'angular';
 import { myComponent } from './components/angularjs/my-component';
 import { MyComponent } from './components/react/MyComponent';
 
