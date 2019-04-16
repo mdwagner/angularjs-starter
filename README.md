@@ -2,7 +2,6 @@
 
 #### Upgrades
 - TypeScript
-- Webpack
 - Jest
 - Emotion
 - @uirouter/react-hybrid
